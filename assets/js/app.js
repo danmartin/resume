@@ -5,7 +5,7 @@ app.factory("fetchResume", ['$http', '$q',  function($http, $q){
     var deferred = $q.defer();
     return {
         getJson: function(){
-            $http.get("./assets/data/resume.json")
+            $http.get("/resume/assets/data/resume.json")
                 .then(function(response){
                     deferred.resolve(response.data);
                 },
