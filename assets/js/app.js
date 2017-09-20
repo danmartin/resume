@@ -21,7 +21,6 @@ app.factory("fetchResume", ['$http', '$q',  function($http, $q){
 app.controller('MainCtrl', ['$scope', 'fetchResume',  function($scope, fetchResume) {
 
     fetchResume.getJson().then(function(data) {
-        console.log(data);
         $scope.resume = data;
     });
 
