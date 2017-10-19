@@ -24,4 +24,18 @@ app.controller('MainCtrl', ['$scope', 'fetchResume',  function($scope, fetchResu
         $scope.resume = data;
     });
 
+    $scope.details = {
+        bool: {},
+        toggle: function (key) {
+            if(this.bool[key] !== undefined) {
+                this.bool[key] = !this.bool[key];
+            } else {
+                this.bool[key] = true;
+            }
+        },
+        status: function(key) {
+            return this.bool[key] === undefined || !this.bool[key] ? "Show Details \u00bb" : "\u00ab Hide Details";
+        }
+    }
+
 }]);
