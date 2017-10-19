@@ -27,8 +27,7 @@ strong i.fa {
   margin-right: 5px; }
 
 .profile {
-  padding-right: 30px; 
-}
+  padding-right: 30px; }
   .profile img {
     max-width: 75px;
     max-height: 75px;
@@ -37,6 +36,9 @@ strong i.fa {
 
 .m-top {
   margin-top: 20px; }
+
+.m-top-40 {
+  margin-top: 40px; }
 
 .m-bottom {
   margin-bottom: 10px; }
