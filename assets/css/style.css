@@ -11,9 +11,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #7799c5; }
 
 h5 small {
-  font-size: .7em;
+  font-size: .65em;
   float: right;
-  font-weight: 700; }
+  font-weight: 500; }
 
 .white-box {
   background-color: #fff;
