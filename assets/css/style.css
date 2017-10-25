@@ -62,13 +62,25 @@ strong i.fa {
 .date-exp {
   text-align: right;
   font-size: .95em;
-  font-style: italic;
-  font-weight: 700;
   color: #aaa; }
 
 @media only screen and (max-width: 768px) {
   .top-exp {
-    margin-top: 20px; } }
+    margin-top: 20px; }
+  .date-exp {
+    margin-bottom: 20px;
+    position: absolute;
+    top: -40px;
+    right: -10px;
+    background-color: #a2b9d7;
+    color: #fff;
+    padding: 0 10px 2px 10px;
+    border: 0;
+    border-radius: 0 0 5px 5px; }
+  .white-box {
+    padding: 20px; }
+  .entry-card {
+    padding-top: 40px; } }
 
 [ng\:cloak], [ng-cloak], .ng-cloak {
   display: none !important; }
