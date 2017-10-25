@@ -12,8 +12,8 @@
 
         <title>Dan Martin Resume</title>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
         <script src="https://use.fontawesome.com/e1a3b10319.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link href="/resume/assets/css/style.css" rel="stylesheet" type="text/css">
 
@@ -51,7 +51,9 @@
                     <div class="white-box">
                         <h4>Personal Data</h4>
                         <ul class="list-unstyled">
-                            <li><strong>Phone</strong><br />{{resume.basics.phone}}</li>
+                            <li><strong>Phone</strong><br />
+                                <span class="hidden-md-up"><a href="tel:{{resume.basics.phone}}">{{resume.basics.phone}}</a></span>
+                                <span class="hidden-sm-down">{{resume.basics.phone}}</span></li>
                             <li><strong>E-Mail</strong><br /><a href="mailto:{{resume.basics.email}}">{{resume.basics.email}}</a></li>
                             <li><strong>www</strong><br /><a href="{{resume.basics.website}}">{{resume.basics.website}}</a></li>
                             <li>
