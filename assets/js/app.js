@@ -34,7 +34,7 @@ app.controller('MainCtrl', ['$scope', 'fetchResume',  function($scope, fetchResu
             }
         },
         status: function(key) {
-            return this.bool[key] === undefined || !this.bool[key] ? "Show Details \u00bb" : "\u00ab Hide Details";
+            return this.bool[key] === undefined || !this.bool[key] ? "More Details \u00bb" : "\u00ab Less Details";
         }
     }
 
