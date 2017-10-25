@@ -26,25 +26,26 @@
         <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
     </head>
     <body ng-app="resume" ng-controller="MainCtrl as mc" ng-cloak>
-        <header>
-            <div class="container profile">
-                <div class="row white-box">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-xs-4"><img ng-src="{{resume.basics.picture}}" alt="Dan Martin" class="rounded-circle"></div>
-                            <div class="col-xs-8">
-                                <h1>{{resume.basics.name}}</h1>
-                                <h4>{{resume.basics.label}}</h4> 
-                            </div>
-                        </div>  
-                    </div>
-                    <div class="col-md-6">
-                        {{resume.basics.summary}}
-                    </div>
-                </div>
-            </div>
-        </header>
         <div class="container m-top">
+                <header>
+                    <div class="container profile">
+                        <div class="row white-box">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-xs-4"><img ng-src="{{resume.basics.picture}}" alt="Dan Martin" class="rounded-circle"></div>
+                                    <div class="col-xs-8">
+                                        <h1>{{resume.basics.name}}</h1>
+                                        <h4>{{resume.basics.label}}</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                {{resume.basics.summary}}
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
             <div class="row m-top">
                 <div class="col-md-4 sidebar">
                     <div class="white-box">
@@ -94,7 +95,7 @@
 
                      </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 top-exp">
                     <h4 class="white-box heading">Experience</h4>
                     <div class="white-box row exp" ng-repeat="(key, attr) in resume.work">
                         <div class="col-md-2 text-center">
