@@ -53,7 +53,7 @@
           "website": "http://www.theanimalhouse.net",
           "startDate": "2003-03-01",
           "endDate": "2014-02-22",
-          "summary": "Creation of website, Point of Sale, internal messaging system, blog. and default systems manager.",
+          "summary": "Creation of website, Point of Sale, internal messaging system, blog and default systems manager.",
           "highlights": [
              "Used Javascript. jQuery to build front-end client interaction, dynamic interfaces, and visual animations.",
              "Programmed all code by hand to be extremely modular and lightweight.",
@@ -79,8 +79,8 @@
           "company": "The Daily News",
           "position": "Web Developer",
           "website": "http://www.tdn.com",
-          "startDate": "2002-03-01",
-          "endDate": "2014-01-01",
+          "startDate": "1998-01-01",
+          "endDate": "2002-03-01",
           "summary": "Created website www.tdn.com , and content management system to allow daily updates for newsroom and copy desk. Built intranet system for in-house communication, and filing systems.",
           "highlights": [
              "Utilized Cold Fusion for first iteration of website and CMS",
