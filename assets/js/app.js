@@ -35,6 +35,12 @@ app.controller('MainCtrl', ['$scope', 'fetchResume',  function($scope, fetchResu
         },
         status: function(key) {
             return this.bool[key] === undefined || !this.bool[key] ? "More Details \u00bb" : "\u00ab Less Details";
+        },
+        urls: {
+            repository: 'https://github.com/danmartin/resume',
+            word: 'http://pdxdan.com/assets/docs/resume.docx',
+            pdf: 'http://pdxdan.com/assets/docs/resume.pdf',
+            json: 'http://pdxdan.com/assets/data/resume.json'
         }
     }
 

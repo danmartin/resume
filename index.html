@@ -76,20 +76,20 @@
                         </div>
 
                         <div class="text-center m-top">
-                                <a href="https://github.com/danmartin/resume" class="btn btn-outline-primary btn-sm" role="button" aria-disabled="true"><i class="fa fa-github" aria-hidden="true"></i> View Resume Source</a>
+                                <a href="{{details.urls.repository}}" class="btn btn-outline-primary btn-sm" role="button" aria-disabled="true"><i class="fa fa-github" aria-hidden="true"></i> View Resume Source</a>
                         </div>
 
                         <hr>
                         <div class="text-center m-top">
                             <h6>Resume Downloads</h6>
                             <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                                <a href="http://pdxdan.com/assets/resumes/resume.docx" class="btn btn-primary btn-sm">
+                                <a href="{{details.urls.word}}" class="btn btn-primary btn-sm">
                                     <i class="fa fa-file-word-o" aria-hidden="true"></i> Word
                                 </a>
-                                <a href="http://pdxdan.com/assets/resumes/resume.pdf" class="btn btn-primary btn-sm">
+                                <a href="{{details.urls.pdf}}" class="btn btn-primary btn-sm">
                                     <i class="fa fa-file-pdf-o" aria-hidden="true"></i> PDF
                                 </a>
-                                <a href="/resume/assets/data/resume.json" class="btn btn-primary btn-sm">
+                                <a href="{{details.urls.json}}" class="btn btn-primary btn-sm">
                                     { } JSON
                                 </a>
                             </div>
@@ -112,7 +112,7 @@
                                 <li ng-repeat="(key2, attr2) in attr.highlights">{{attr2}}</li>
                             </ul>
                             <div class="text-right">
-                                <a href ng-click="details.toggle(key)">
+                                <button ng-click="details.toggle(key)" class="btn btn-outline-info btn-sm">
                                     <span>{{details.status(key)}}</span>
                                 </a>
                             </div>

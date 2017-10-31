@@ -37,7 +37,7 @@
           "company": "Geiger",
           "position": "Software Developer",
           "website": "http://www.geiger.com",
-          "startDate": "2013-02-23",
+          "startDate": "2014-02-23",
           "endDate": "Present",
           "summary": "Developing, enhancing and maintaining of key applications. Converting applications over from legacy Java applications to Laravel / AngularJS applications. Maintaining code repositories, providing code reviews of junior and senior developers to ensure application integrity and usability.",
           "highlights": [
@@ -51,7 +51,7 @@
           "company": "The Animal House",
           "position": "Owner / Software Developer",
           "website": "http://www.theanimalhouse.net",
-          "startDate": "2003-03-01",
+          "startDate": "2003-03-02",
           "endDate": "2014-02-22",
           "summary": "Creation of website, Point of Sale, internal messaging system, blog and default systems manager.",
           "highlights": [
@@ -67,8 +67,8 @@
           "company": "Hollis Interactive",
           "position": "Web Developer",
           "website": "http://hollisinteractive.com/",
-          "startDate": "2002-03-01",
-          "endDate": "2003-01-01",
+          "startDate": "2002-03-02",
+          "endDate": "2003-01-02",
           "summary": "Creation and maintenance of many Web sites and applications for corporate, non-profit and other clients. Performed the full spectrum of Web-related tasks, including rapid prototyping, design and layout, graphics creation and optimization, server-side programming (primarily PHP), MySQL databases, AJAX interactivity, standards-compliant XHTML and CSS, testing, training, hosting, security, traffic generation and ongoing updates.",
           "highlights": [
              "Creation of custom branded content management system to allow for client entries to be validated to W3C standard specifications, with reduced markup.",
@@ -79,8 +79,8 @@
           "company": "The Daily News",
           "position": "Web Developer",
           "website": "http://www.tdn.com",
-          "startDate": "1998-01-01",
-          "endDate": "2002-03-01",
+          "startDate": "1996-07-02",
+          "endDate": "2002-02-02",
           "summary": "Created website www.tdn.com , and content management system to allow daily updates for newsroom and copy desk. Built intranet system for in-house communication, and filing systems.",
           "highlights": [
              "Utilized Cold Fusion for first iteration of website and CMS",
@@ -93,8 +93,8 @@
           "institution": "Lower Columbia College",
           "area": "Information Technology",
           "studyType": "Associates",
-          "startDate": "1998-09-01",
-          "endDate": "1999-12-01",
+          "startDate": "1998-09-02",
+          "endDate": "1999-12-02",
           "gpa": "2.8",
           "courses": []
        },
@@ -102,7 +102,7 @@
         "institution": "Treehouse",
         "area": "Information Technology",
         "studyType": "Web Development",
-        "startDate": "2012-09-01",
+        "startDate": "2012-09-02",
         "endDate": "Present",
         "gpa": "",
         "courses": []
